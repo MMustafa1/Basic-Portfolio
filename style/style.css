@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    gap: 10px;
+}
+.image{
+    display: flex;
+    background-color:darkslategrey;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    background-color:cadetblue;
+    width: 100%;
+    height:1270px;
+}
+.image1{
+   border-radius: 20px;
+}
+h2{
+    padding: 10px;
+}
+.Heading{
+    font-weight: bold;
+    color:antiquewhite;
+}
+.text{
+    font-weight: 800;
+    justify-content: left;
+}
